@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class WebController {
     @GetMapping("/")
     public String home() {
-        return "<h1>Welcome to My Simple Java Web App!</h1>";
+        return "<h1>Welcome to My Simple Java Web App!01</h1>";
     }
 }
